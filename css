@@ -1,0 +1,201 @@
+/*----------body-------- */
+body {
+    font-family: Raleway,sans-serif;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+p {
+        font-weight: 400;
+        font-size: 16px;
+   
+        /* line-height: 24px; */
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+/*----------header-------*/
+.header {
+    width: 1440px;
+        height: 72px;
+}
+.nav {
+    width: 261px;
+        height: 24px;
+}
+
+
+.menu,
+.menu-item,
+.menu-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+
+.logo {
+    width: 115px;
+    height: 24px;
+        font-weight: 700;
+        font-size: 18px;
+   
+        /* line-height: 21px; */
+        line-height: 1.16667;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4D5AE5;
+}
+.logo-style {
+        font-weight: 700;
+        font-size: 18px;
+   
+        /* line-height: 21px; */
+        line-height: 1.16667;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #2E2F42;
+}
+/* ---------first-section---------- */
+.first-section {
+    width: 1440px;
+        height: 600px;
+        background: #2E2F42;
+}
+.first-title {
+        font-weight: 700;
+        font-size: 56px;
+   
+        /* line-height: 60px; */
+        line-height: 1.07143;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color:#FFFFFF;
+}
+.button-order {
+        width: 169px;
+        height: 56px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+            background: #FFFFFF;
+}
+
+
+.button-order {
+    cursor: pointer;
+}
+
+
+.button-order:hover,
+.button-order:focus {
+    background-color: #404bbf;
+}
+
+
+/* ----------second-section---------------- */
+.second-section {
+    width: 1128px;
+        height: 104px;
+}
+.second-title {
+        font-weight: 500;
+        font-size: 20px;
+   
+        /* line-height: 24px; */
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+.third-title {
+        font-size: 20px;
+   
+        /* line-height: 24px; */
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+
+
+.img-avatar {
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    width: 264px;
+    height: 380px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: #FFFFFF;
+}
+/* ---------third-section----------------------- */
+.third-section {
+    width: 1128px;
+        height: 1000px;
+}
+.second-title {
+        font-weight: 700;
+        font-size: 36px;
+   
+        /* line-height: 40px; */
+        line-height: 1.11111;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2E2F42;
+}
+/* -----------section-fourth------------------- */
+.section-fourth {
+    width: 1128px;
+        height: 1000px;
+}
+.row {
+        width: 1128px;
+        height: 420px;
+}
+.img-row {
+    width: 360px;
+        height: 420px;
+        background: #FFFFFF;
+}
+/* -------footer--------- */
+.footer {
+        width: 1440px;
+        height: 312px;
+                background: #2E2F42;
+}
+
+
+.logo-footer {
+        font-weight: 700;
+        font-size: 18px;
+   
+        /* line-height: 21px; */
+        line-height: 1.16667;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4D5AE5;
+}
+
+
+.logo-part {
+        font-weight: 700;
+        font-size: 18px;
+   
+        /* line-height: 21px; */
+        line-height: 1.16667;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #F4F4FD;
+}
+
+
+.text-footer {
+        font-weight: 400;
+        font-size: 16px;
+   
+        /* line-height: 24px; */
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #F4F4FD;
+}
+
