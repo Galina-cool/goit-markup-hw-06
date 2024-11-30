@@ -40,20 +40,26 @@ p {
 .address-info :focus {
     color: #404bbf;
 }
-.menu,
-.menu-item,
-.menu-link {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-}
 
+.menu-link-active {
+     font-weight: bold;
+     color: #4D5AE5;
+}
+   .menu-link {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+   }
+
+   .menu-link:hover,
+   .menu-link:focus {
+       color: #404bbf;
+   }
+   
 
 .logo {
-    width: 115px;
-    height: 24px;
         font-weight: 700;
         font-size: 18px;
    
@@ -62,6 +68,7 @@ p {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4D5AE5;
+        font-family: "Raleway", sans-serif;
 }
 .logo-style {
         font-weight: 700;
@@ -118,15 +125,15 @@ p {
         height: 104px;
 }
 .second-title {
-        font-weight: 500;
-        font-size: 20px;
-        font-weight: 500;
-   
-        /* line-height: 24px; */
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        color: #2E2F42;
-        text-transform: capitalize;
+    font-family: 2E2F42;
+    font-weight: 700;
+    font-size: 36px;
+    
+    /* line-height: 40px; */ 
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color:  #2e2f42;
 }
 .third-title {
         font-size: 20px;
