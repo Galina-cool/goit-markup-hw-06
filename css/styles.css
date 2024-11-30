@@ -1,6 +1,8 @@
 /*----------body-------- */
 body {
-    font-family: Raleway,sans-serif;
+    font-family: "Roboto",sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 a {
     text-decoration: none;
@@ -28,6 +30,16 @@ p {
         height: 24px;
 }
 
+.address-info {
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.address-info :hover,
+.address-info :focus {
+    color: #404bbf;
+}
 .menu,
 .menu-item,
 .menu-link {
@@ -46,7 +58,7 @@ p {
         font-size: 18px;
    
         /* line-height: 21px; */
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4D5AE5;
@@ -56,7 +68,7 @@ p {
         font-size: 18px;
    
         /* line-height: 21px; */
-        line-height: 1.16667;
+        line-height: 1.16;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #2E2F42;
@@ -72,7 +84,7 @@ p {
         font-size: 56px;
    
         /* line-height: 60px; */
-        line-height: 1.07143;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color:#FFFFFF;
@@ -80,8 +92,12 @@ p {
 .button-order {
         width: 169px;
         height: 56px;
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-            background: #FFFFFF;
+        background-color: #4D5AE5;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #ffffff;
 }
 
 
@@ -104,44 +120,46 @@ p {
 .second-title {
         font-weight: 500;
         font-size: 20px;
+        font-weight: 500;
    
         /* line-height: 24px; */
-        line-height: 1.2;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         color: #2E2F42;
+        text-transform: capitalize;
 }
 .third-title {
         font-size: 20px;
+        font-weight: 500;
    
         /* line-height: 24px; */
-        line-height: 1.2;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         color: #2E2F42;
+        text-transform: capitalize;
 }
 
 
 .img-avatar {
-    border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
     width: 264px;
     height: 380px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #FFFFFF;
 }
 /* ---------third-section----------------------- */
 .third-section {
     width: 1128px;
         height: 1000px;
+        background-color: #F4F4FD;
 }
 .second-title {
-        font-weight: 700;
         font-size: 36px;
    
         /* line-height: 40px; */
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2E2F42;
+        font-weight: 500;
 }
 /* -----------section-fourth------------------- */
 .section-fourth {
@@ -170,7 +188,7 @@ p {
         font-size: 18px;
    
         /* line-height: 21px; */
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4D5AE5;
@@ -182,7 +200,7 @@ p {
         font-size: 18px;
    
         /* line-height: 21px; */
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #F4F4FD;
