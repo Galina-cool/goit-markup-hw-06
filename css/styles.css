@@ -18,6 +18,7 @@ p {
         color: #434455;
 }
 /*----------header-------*/
+
 .header {
     width: 1440px;
         height: 72px;
@@ -26,7 +27,6 @@ p {
     width: 261px;
         height: 24px;
 }
-
 
 .menu,
 .menu-item,
