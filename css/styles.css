@@ -27,7 +27,7 @@ p {
     font-style: normal;
 }
 
-.contact-mail, .contact-phone {
+.contact-info {
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -35,8 +35,8 @@ p {
     font-size: 16px;
 }
 
-.contact-mail:hover,
-.contact-mail:focus {
+.contact-info:hover,
+.contact-info:focus {
     color: #404bbf;
 }
 
