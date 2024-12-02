@@ -23,6 +23,9 @@ p {
     background-color: #FFFFFF;
 }
 
+.address {
+    font-style: normal;
+}
 .contact-mail {
     font-style: normal;
     line-height: 1.5;
@@ -36,10 +39,10 @@ p {
 }
 
 .contact-phone {
-    ont-style: normal;
+    font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: #434455; 
 }
 
 .link-logo {
@@ -189,6 +192,9 @@ p {
 
 }
 
+.img-avatar {
+    background-color: #FFFFFF;
+}
 /* -----------section-fourth------------------- */
 .section-fourth {
     background-color: #FFFFFF;
@@ -202,6 +208,7 @@ p {
     letter-spacing: 0.02em;
     text-align: center;
     color:  #2e2f42;
+    text-transform: capitalize;
 }
  
 .portfolio-title {
