@@ -46,6 +46,11 @@ p {
     display: flex;
 }
 
+.header-container {
+    display: flex;
+    width: 1158px;
+    
+}
 
 .nav-list {
     display: flex;
@@ -150,8 +155,7 @@ p {
 .hero {
     background: #2E2F42;
     text-align: center;
-    padding-top: 188px;
-    padding-bottom: 48px;
+    padding: 188px 0;
     margin: 0 auto;
 
 }
@@ -163,7 +167,7 @@ p {
     letter-spacing: 0.02em;
     text-align: center;
     color:#FFFFFF;
-    padding: 16px 32px;
+    max-width: 496px;
 }
 
 .button-order {
@@ -180,11 +184,12 @@ p {
    justify-content: flex-start;
    flex-direction: row;
    gap: 10px; 
+   min-width: 169px;
+   height: 56px;
+   border: none;
+   border-radius: 4px; 
 }
 
-.button-order {
-    cursor: pointer;
-}
 
 .button-order:hover,
 .button-order:focus {
@@ -196,16 +201,6 @@ p {
     background-color: #FFFFFF;
     text-align: center;
     padding: 120px 0;
-}
-
-.section-title {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
-    margin-bottom: 40px;
 }
 
 .visually-hidden {
@@ -226,7 +221,7 @@ p {
     gap: 24px;
   }
 
-  .advantages-item {
+.advantages-item {
     flex-basis: calc((100% - 72px)/4);
   }
 
@@ -269,7 +264,8 @@ p {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 .team-role {
@@ -277,7 +273,7 @@ p {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:  #434455;
-
+    text-align: center; 
 }
 
 .image {
@@ -286,18 +282,24 @@ p {
     max-width: 100%;
     height: auto;
  }
+ .team-list {
+    display: flex;
+    gap: 24px; 
+ }
 
  .team-block {
-padding: 16px 32px;
+    padding: 32px 0;
  }
 
 .team-item {
     background-color: #FFFFFF;
+    flex-basis: calc((100% - 3 * 24px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 /* ----------- Portfolio Section  ------------------- */
 .portfolio-section {
     background-color: #FFFFFF;
-    padding: 120px 0;
+    padding-top: 120px; 
 }
     
 .section-title {
@@ -319,8 +321,7 @@ padding: 16px 32px;
     letter-spacing: 0.02em;
     color: #2e2f42;
     font-size: 18px;
-    margin-top: 10px;
-
+    margin-bottom: 8px;
 }
 
 .portfolio-list {
@@ -337,7 +338,7 @@ padding: 16px 32px;
    padding: 32px 16px;
    border: 1px solid;
    border-top: none;
-   margin-bottom: 8px;
+   border: 1px solid #e7e9fc;
 }
 
  .image {
@@ -362,6 +363,7 @@ padding: 16px 32px;
     text-align: center;
     display: block;
     margin-bottom: 16px;
+    padding: 100px 0;
 }
 
 
@@ -374,6 +376,8 @@ padding: 16px 32px;
     color: #4D5AE5;
     font-family: "Raleway", sans-serif;
     padding: 100px 0;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 
