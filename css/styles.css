@@ -300,6 +300,8 @@ p {
 .portfolio-section {
     background-color: #FFFFFF;
     padding-top: 120px; 
+    padding-top: 120px;
+    padding-bottom: 120px; 
 }
     
 .section-title {
@@ -336,9 +338,8 @@ p {
 
 .portfolio-block {
    padding: 32px 16px;
-   border: 1px solid;
-   border-top: none;
    border: 1px solid #e7e9fc;
+   border-top: none;
 }
 
  .image {
