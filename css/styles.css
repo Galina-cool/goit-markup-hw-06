@@ -299,8 +299,7 @@ p {
 /* ----------- Portfolio Section  ------------------- */
 .portfolio-section {
     background-color: #FFFFFF;
-    padding-top: 120px;
-    padding-bottom: 120px; 
+    padding: 120px 0 120px 0;
 }
     
 .section-title {
