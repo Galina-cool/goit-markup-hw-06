@@ -498,14 +498,17 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 /* -------footer--------- */
 .footer {
     background: #2E2F42;
-    display: flex;
-    align-items: baseline;
     margin-bottom: 16px;
     padding: 100px 0;
 }
 
 .footer-content {
     margin-right: 120px;
+}
+
+.container-footer {
+    display: flex;
+    align-items: baseline;
 }
 
 .logo-footer {
