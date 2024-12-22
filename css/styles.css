@@ -44,7 +44,7 @@ p {
     background-color: #FFFFFF;
     border-bottom: 1px solid #e7e9fc;
     display: flex;
-    box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
+box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-container {
@@ -78,7 +78,7 @@ p {
     gap: 15px;
 }
 
-.contact-info {
+.contact-link{
     display: block;
     padding: 24px 0;
     font-style: normal;
@@ -86,6 +86,7 @@ p {
     letter-spacing: 0.02em;
     color: #434455;
     font-size: 16px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-info:hover,
@@ -105,13 +106,26 @@ p {
     margin-right: 76px;
 }
 
-.nav-link {
+.nav-item {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
+  
+.nav-link {
+    position: relative;
+    color: #2e2f42;
+    text-decoration: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+
 
 .nav-link-active:hover,
 .nav-link-active:focus {
@@ -130,13 +144,14 @@ p {
 
 .nav-link-active::after {
     content: '';
-    display: block;
-    height: 4px;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
     width: 100%;
+    height: 4px;
     background-color: #404bbf;
     border-radius: 2px;
-    margin-top: 4px;
-}
+  }
 
    
 .logo {
@@ -263,6 +278,17 @@ p {
 
 }
 
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
+  }
+  
 /* --------- Team  Section----------------------- */
 .team-section {
     background-color: #F4F4FD;
@@ -347,6 +373,30 @@ p {
     fill: #f4f4fd;
 }
 
+.social-icons {
+  width: 40px;
+  height: 40px;  
+}
+
+.social-link {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+}
+
+.social-link:hover,
+.social-link:focus {
+    background-color: #404bbf;   
+}
+
+.svg-icons {
+  fill: #f4f4fd;  
+}
 /* ----------- Portfolio Section  ------------------- */
 .portfolio-section {
     background-color: #FFFFFF;
@@ -354,7 +404,7 @@ p {
 }
     
 .section-title {
-    font-family: 2E2F42;
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -383,6 +433,7 @@ p {
 
 .portfolio-item {
     flex-basis: calc((100% - (2 * 24px)) / 3);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .portfolio-block {
@@ -398,6 +449,13 @@ p {
     height: auto;
  }
 
+ .image-block {
+    position: relative;
+    overflow: hidden;
+    
+
+ }
+
 .portfolio-text {
     font-size: 16px;
     line-height: 1.5;
@@ -406,14 +464,19 @@ p {
 
 }
 
+.portfolio-text:hover {
+    transform: translateY(0%);  
+}
+
 .overlay-text {
     position: absolute;
     top: 0;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #f4f4fd;
     padding: 40px 32px;
-    background-color: rgba(77, 90, 229, 0.8);
+    background-color: #4d5ae5; 
     width: 100%;
     height: 100%;
     transform: translateY(100%);
@@ -491,8 +554,7 @@ p {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #fff;
-    margin-top: 0;
+    color: #FFFFFF;
     margin-bottom: 16px;
 }
 
@@ -507,12 +569,6 @@ p {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-list-link-footer:hover,
-.social-list-link-footer:focus {
-    background-color: #31d0aa;
-    transform: background-color;
-}
-
 .social-list-icons {
     fill: #f4f4fd;
 }
@@ -523,4 +579,31 @@ p {
 }
 
 .social-list-footer {
+   display: flex; 
+   gap: 16px;
+}
+
+.footer-item {
+  width: 40px;  
+  height: 40px;
+}
+
+.footer-link {
+  width: 100%; 
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-link:hover,
+.footer-link:focus {
+    background-color: #31d0aa;  
+}
+
+.svg-footer {
+   fill: #f4f4fd; 
 }
