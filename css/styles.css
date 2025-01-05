@@ -555,13 +555,21 @@ input {
  
 .advantages-list {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     column-gap: 24px;
     row-gap: 72px;
     align-content: center;
+}
+@media screen and (min-width:768px) {
+    .advantages-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
 }
 .advantages-item {
     flex-basis: calc((100% - 24px)/2);
